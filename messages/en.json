@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "beforeAfter": "Before & After",
+    "contact": "Contact",
+    "getAnalysis": "FREE ANALYSIS"
+  },
+  "hero": {
+    "badge": "⭐ Turkey’s Leading Hair Transplant Center",
+    "title": "Natural Hair Restoration with",
+    "subtitle": "Our Expert Team",
+    "description": "With advanced techniques and personalized care, we help you achieve the perfect look with minimal discomfort.",
+    "cta": "Get Started",
+    "consultation": "Free Consultation",
+    "stats": {
+      "years": "Years of Experience",
+      "patients": "Happy Patients",
+      "success": "Success Rate"
+    },
+    "cards": {
+      "certified": "FDA Approved",
+      "certificate": "International Certification",
+      "natural": "100% Natural",
+      "results": "Results"
+    },
+    "imageText": "Professional Hair Transplant"
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "Modern and Safe Solutions for Your Health",
+    "description": "We provide reliable aesthetic and medical services with state-of-the-art equipment and expert physicians.",
+    "learnMore": "Learn More",
+    "clinic": "Modern Clinic",
+    "experience": {
+      "years": "Years",
+      "label": "Experience"
+    },
+    "features": {
+      "painless": {
+        "title": "Pain-Free Procedures",
+        "desc": "Completely painless experience with modern anesthesia techniques"
+      },
+      "certified": {
+        "title": "International Certifications",
+        "desc": "FDA and CE approved equipment and techniques"
+      },
+      "team": {
+        "title": "Expert Team",
+        "desc": "Professional doctors with over 15 years of experience"
+      },
+      "fast": {
+        "title": "Fast Recovery",
+        "desc": "Minimal recovery time thanks to advanced technology"
+      }
+    }
+  },
+  "services": {
+    "subtitle": "Our Services",
+    "title": "Our Areas of Expertise",
+    "learnMore": "View Details",
+    "service1": {
+      "title": "Hair Transplant",
+      "desc": "Advanced hair transplant techniques for natural and permanent results."
+    },
+    "service2": {
+      "title": "Beard & Mustache Transplant",
+      "desc": "Natural and aesthetic designs tailored to your facial structure."
+    },
+    "service3": {
+      "title": "Eyebrow Transplant",
+      "desc": "Professional solutions for fuller and symmetrical eyebrows."
+    },
+    "service4": {
+      "title": "PRP Treatment",
+      "desc": "Regenerative plasma therapy to strengthen hair follicles."
+    },
+    "service5": {
+      "title": "Mesotherapy",
+      "desc": "Vitamin-supported treatments against hair loss."
+    },
+    "cta": {
+      "title": "Achieve the Hair of Your Dreams",
+      "desc": "Contact us now for a free consultation",
+      "button": "Contact via WhatsApp"
+    }
+  },
+  "video": {
+    "title": "Our Success Stories",
+    "subtitle": "Patient Experiences and Results",
+    "description": "Watch our patients’ transformation stories and our professional transplant process in our videos."
+  },
+  "beforeAfter": {
+    "subtitle": "Before & After",
+    "title": "Our Real Results",
+    "before": "Before",
+    "after": "After",
+    "beforePhoto": "Before Photo",
+    "afterPhoto": "After Photo",
+    "stats": {
+      "age": "Age",
+      "grafts": "Grafts",
+      "method": "Method"
+    },
+    "cta": {
+      "text": "Would you like to see more results?",
+      "button": "Get a Free Consultation"
+    }
+  },
+  "testimonials": {
+    "title": "Patient Testimonials",
+    "subtitle": "From Our Happy Patients",
+    "testimonial1": {
+      "text": "My hair transplant experience exceeded my expectations. The procedure was completely painless, and the team was incredibly supportive and informative. The results are amazing — I definitely recommend it!",
+      "name": "Ahmet Yılmaz",
+      "role": "Businessman"
+    },
+    "testimonial2": {
+      "text": "As a woman, I was worried about hair thinning. However, the team made me feel completely comfortable. The results are natural and I regained my confidence. Extremely professional!",
+      "name": "Ayşe Demir",
+      "role": "Teacher"
+    },
+    "testimonial3": {
+      "text": "I was hesitant at first, but I worked with true professionals. The procedure went smoothly and I started seeing visible results within a few months. Choosing this clinic was the best decision I made!",
+      "name": "Mehmet Kaya",
+      "role": "Engineer"
+    }
+  },
+  "stats": {
+    "years": "Years of Experience",
+    "patients": "Happy Patients",
+    "success": "Success Rate",
+    "countries": "Patients from Countries"
+  },
+  "contact": {
+    "subtitle": "Contact",
+    "title": "Get in Touch",
+    "infoTitle": "Contact Information",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "addressLabel": "Address",
+    "address": "Nisantasi, Istanbul, Turkey",
+    "hours": {
+      "title": "Working Hours",
+      "weekdays": "Monday - Friday",
+      "weekdaysTime": "09:00 - 18:00",
+      "saturday": "Saturday",
+      "saturdayTime": "09:00 - 16:00",
+      "sunday": "Sunday",
+      "closed": "Closed"
+    },
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "service": "Service",
+    "message": "Message",
+    "send": "Send",
+    "select": "Select",
+    "services": {
+      "fue": "FUE Hair Transplant",
+      "dhi": "DHI Hair Transplant",
+      "female": "Female Hair Transplant",
+      "beard": "Beard Transplant",
+      "eyebrow": "Eyebrow Transplant"
+    },
+    "placeholders": {
+      "name": "Your full name",
+      "email": "email@example.com",
+      "phone": "+90 555 123 45 67",
+      "message": "Write your message here..."
+    },
+    "whatsappMessage": "Hello! Name: {name}, Email: {email}, Phone: {phone}, Service: {service}, Message: {message}"
+  },
+  "footer": {
+    "description": "Achieve natural and permanent results with advanced hair transplant solutions. Your confidence is our priority.",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "contactInfo": "Contact Information",
+    "rights": "All rights reserved."
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "beforeAfter": "Önce & Sonra",
+    "contact": "İletişim",
+    "getAnalysis": "ÜCRETSİZ ANALİZ"
+  },
+  "hero": {
+    "badge": "⭐ Türkiye'nin Önde Gelen Saç Ekimi Merkezi",
+    "title": "Doğal Saç Restorasyonunda",
+    "subtitle": "Uzman Ekibimiz",
+    "description": "Gelişmiş teknikler ve kişiselleştirilmiş bakımla, minimum rahatsızlıkla mükemmel görünüme ulaşmanızı sağlıyoruz.",
+    "cta": "Hemen Başlayın",
+    "consultation": "Ücretsiz Konsültasyon",
+    "stats": {
+      "years": "Yıl Deneyim",
+      "patients": "Mutlu Hasta",
+      "success": "Başarı Oranı"
+    },
+    "cards": {
+      "certified": "FDA Onaylı",
+      "certificate": "Uluslararası Sertifika",
+      "natural": "%100 Doğal",
+      "results": "Sonuçlar"
+    },
+    "imageText": "Profesyonel Saç Ekimi"
+  },
+  "about": {
+    "badge": "Hakkımızda",
+    "title": "Sağlığınız İçin Modern ve Güvenli Çözümler",
+    "description": "En son teknolojiye sahip ekipmanlarımız ve uzman doktorlarımız ile estetik ve medikal işlemlerde güvenilir hizmet sunuyoruz.",
+    "learnMore": "Daha Fazla Bilgi Al",
+    "clinic": "Modern Klinik",
+    "experience": {
+      "years": "Yıl",
+      "label": "Deneyim"
+    },
+    "features": {
+      "painless": {
+        "title": "Ağrısız İşlem",
+        "desc": "Modern anestezi teknikleri ile tamamen ağrısız deneyim"
+      },
+      "certified": {
+        "title": "Uluslararası Sertifikalar",
+        "desc": "FDA ve CE onaylı ekipmanlar ve teknikler"
+      },
+      "team": {
+        "title": "Uzman Ekip",
+        "desc": "15+ yıl deneyimli profesyonel doktorlar"
+      },
+      "fast": {
+        "title": "Hızlı İyileşme",
+        "desc": "İleri teknoloji ile minimal iyileşme süresi"
+      }
+    }
+  },
+  "services": {
+    "subtitle": "Hizmetlerimiz",
+    "title": "Uzmanlık Alanlarımız",
+    "learnMore": "Detayları Gör",
+    "service1": {
+      "title": "Saç Ekimi",
+      "desc": "Doğal ve kalıcı sonuçlar için ileri teknoloji saç ekimi uygulamaları."
+    },
+    "service2": {
+      "title": "Sakal & Bıyık Ekimi",
+      "desc": "Yüz hatlarınıza uygun estetik ve doğal tasarımlar."
+    },
+    "service3": {
+      "title": "Kaş Ekimi",
+      "desc": "Daha belirgin ve simetrik kaş görünümü için profesyonel çözümler."
+    },
+    "service4": {
+      "title": "PRP Tedavisi",
+      "desc": "Saç köklerini güçlendiren yenileyici plazma uygulamaları."
+    },
+    "service5": {
+      "title": "Mezoterapi",
+      "desc": "Saç dökülmesine karşı vitamin destekli bakım tedavileri."
+    },
+    "cta": {
+      "title": "Hayalinizdeki Saçlara Kavuşun",
+      "desc": "Ücretsiz danışmanlık için hemen bizimle iletişime geçin",
+      "button": "WhatsApp'tan Ulaşın"
+    }
+  },
+  "video": {
+    "title": "Başarı Hikayelerimiz",
+    "subtitle": "Hasta Deneyimleri ve Sonuçlar",
+    "description": "Hastalarımızın dönüşüm hikayelerini ve profesyonel ekimimiz sürecini videolarımızda izleyebilirsiniz."
+  },
+  "beforeAfter": {
+    "subtitle": "Önce & Sonra",
+    "title": "Gerçek Sonuçlarımız",
+    "before": "Önce",
+    "after": "Sonra",
+    "beforePhoto": "Önce Fotoğrafı",
+    "afterPhoto": "Sonra Fotoğrafı",
+    "stats": {
+      "age": "Yaş",
+      "grafts": "Greft",
+      "method": "Yöntem"
+    },
+    "cta": {
+      "text": "Daha fazla sonuç görmek ister misiniz?",
+      "button": "Ücretsiz Danışmanlık Alın"
+    }
+  },
+  "testimonials": {
+    "title": "Hasta Yorumları",
+    "subtitle": "Mutlu Hastalarımızdan",
+    "testimonial1": {
+      "text": "Saç ekimi deneyimim beklentilerimi aştı. İşlem tamamen ağrısızdı ve ekip inanılmaz destekleyici ve bilgilendiriciydi. Sonuçlar harika - kesinlikle tavsiye ediyorum!",
+      "name": "Ahmet Yılmaz",
+      "role": "İş İnsanı"
+    },
+    "testimonial2": {
+      "text": "Bir kadın olarak saç incelmesinden endişeliydim. Ancak ekip beni tamamen rahat hissettirdi. Sonuçlar doğal ve özgüvenimi geri kazandım. Son derece profesyonel!",
+      "name": "Ayşe Demir",
+      "role": "Öğretmen"
+    },
+    "testimonial3": {
+      "text": "İlk başta tereddütlüydüm ama gerçek profesyonellerle çalıştım. İşlem sorunsuzdu ve birkaç ay içinde görünür sonuçlar görmeye başladım. Bu kliniği seçmek aldığım en iyi karardı!",
+      "name": "Mehmet Kaya",
+      "role": "Mühendis"
+    }
+  },
+  "stats": {
+    "years": "Yıllık Deneyim",
+    "patients": "Mutlu Hasta",
+    "success": "Başarı Oranı",
+    "countries": "Ülkeden Hasta"
+  },
+  "contact": {
+    "subtitle": "İletişim",
+    "title": "Bizimle İletişime Geçin",
+    "infoTitle": "İletişim Bilgileri",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-posta",
+    "addressLabel": "Adres",
+    "address": "Nişantaşı, İstanbul, Türkiye",
+    "hours": {
+      "title": "Çalışma Saatleri",
+      "weekdays": "Pazartesi - Cuma",
+      "weekdaysTime": "09:00 - 18:00",
+      "saturday": "Cumartesi",
+      "saturdayTime": "09:00 - 16:00",
+      "sunday": "Pazar",
+      "closed": "Kapalı"
+    },
+    "name": "Ad Soyad",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "service": "Hizmet",
+    "message": "Mesaj",
+    "send": "Gönder",
+    "select": "Seçiniz",
+    "services": {
+      "fue": "FUE Saç Ekimi",
+      "dhi": "DHI Saç Ekimi",
+      "female": "Kadınlarda Saç Ekimi",
+      "beard": "Sakal Ekimi",
+      "eyebrow": "Kaş Ekimi"
+    },
+    "placeholders": {
+      "name": "Adınız Soyadınız",
+      "email": "email@ornek.com",
+      "phone": "+90 555 123 45 67",
+      "message": "Mesajınızı buraya yazın..."
+    },
+    "whatsappMessage": "Merhaba! İsim: {name}, Email: {email}, Telefon: {phone}, Hizmet: {service}, Mesaj: {message}"
+  },
+  "footer": {
+    "description": "Gelişmiş saç ekimi çözümleriyle doğal ve kalıcı sonuçlar elde edin. Özgüveniniz bizim önceliğimiz.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "ourServices": "Hizmetlerimiz",
+    "contactInfo": "İletişim Bilgileri",
+    "rights": "Tüm hakları saklıdır."
+  }
+}

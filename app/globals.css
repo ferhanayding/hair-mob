@@ -8,10 +8,74 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  --color-main: #23403e;
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
+/* Container */
+.container-custom {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 1.25rem; /* 20px sağ sol */
+}
+
+@media (min-width: 640px) {
+  .container-custom {
+    padding-inline: 2rem; /* 32px */
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-custom {
+    max-width: 1200px;
+    padding-inline: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-custom {
+    max-width: 1320px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container-custom {
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container-custom {
+    max-width: 1400px;
+  }
+}
+.section-padding {
+  /* @apply py-16 md:py-24 lg:py-32; */
+  padding-top: 6rem; /* 96px */
+  padding-bottom: 6rem; /* 96px */
+}
+@media (max-width: 527px) {
+  .section-padding {
+    padding-top: 4rem; /* 64px */
+    padding-bottom: 4rem; /* 64px */
+  }
+}
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 6rem; /* 96px */
+    padding-bottom: 6rem; /* 96px */
+  }
+}
+@media (min-width: 1024px) {
+  .section-padding {
+    padding-top: 8rem; /* 128px */
+    padding-bottom: 8rem; /* 128px */
+  }
+}
+/* Dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -22,5 +86,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }

@@ -8,7 +8,7 @@
     "getAnalysis": "FREE ANALYSIS"
   },
   "hero": {
-    "badge": "⭐ Turkey’s Leading Hair Transplant Center",
+    "badge": "⭐ Russia's Leading Hair Transplant Center",
     "title": "Natural Hair Restoration with",
     "subtitle": "Our Expert Team",
     "description": "With advanced techniques and personalized care, we help you achieve the perfect look with minimal discomfort.",
@@ -178,5 +178,72 @@
     "ourServices": "Our Services",
     "contactInfo": "Contact Information",
     "rights": "All rights reserved."
+  },
+  "faq": {
+    "badge": "Frequently Asked Questions",
+    "title": "What You Need to Know About Hair Transplant",
+    "description": "We have answered the most common questions about the hair transplant process.",
+    "items": [
+      {
+        "question": "What is the Sapphire method?",
+        "answer": "The Sapphire FUE method is an advanced version of the traditional FUE technique. Channels are opened using special sapphire-tipped blades, allowing denser transplantation, reduced tissue trauma, and faster healing. It provides more natural and dense results."
+      },
+      {
+        "question": "What is a graft?",
+        "answer": "A graft is a tissue unit containing hair follicles. One graft may contain between 1 and 4 hair strands. Planning is based on the number of grafts needed."
+      },
+      {
+        "question": "How long does a hair transplant take?",
+        "answer": "The procedure usually takes between 6 to 8 hours depending on the number of grafts."
+      },
+      {
+        "question": "Is hair transplant painful?",
+        "answer": "The procedure is performed under local anesthesia, so patients do not feel pain during the operation. Mild sensitivity may occur afterward but resolves quickly."
+      },
+      {
+        "question": "How is the number of grafts determined?",
+        "answer": "The number of grafts is determined by the size of the bald area and the density of the donor region."
+      },
+      {
+        "question": "What is shock loss after hair transplant?",
+        "answer": "Shock loss is the temporary shedding of transplanted hairs within 2–6 weeks. This is normal, and permanent hair growth starts around the 3rd month."
+      },
+      {
+        "question": "When are results visible?",
+        "answer": "Initial growth starts around the 3rd month. Noticeable density appears by the 6th month, and final results are usually achieved within 12 months."
+      },
+      {
+        "question": "Is hair transplant permanent?",
+        "answer": "Yes. Hair follicles taken from the donor area are genetically resistant to hair loss and continue to grow permanently."
+      },
+      {
+        "question": "Can women have a hair transplant?",
+        "answer": "Yes, women who are suitable candidates can also undergo hair transplantation after medical evaluation."
+      },
+      {
+        "question": "When can I return to work?",
+        "answer": "Most patients can return to social life within 2–3 days. Office workers may return even sooner."
+      },
+      {
+        "question": "Is there an age limit?",
+        "answer": "Generally suitable for individuals over 18 whose hair loss pattern has largely stabilized."
+      },
+      {
+        "question": "Can hair transplant be done in summer?",
+        "answer": "Yes, but protection from direct sunlight is essential."
+      },
+      {
+        "question": "Can I exercise after the procedure?",
+        "answer": "Heavy exercise should be avoided for the first 2 weeks. Light walking is possible after a few days."
+      },
+      {
+        "question": "Can transplanted hair be cut?",
+        "answer": "Yes. Transplanted hair grows naturally and can be cut and styled as desired."
+      },
+      {
+        "question": "Will there be scars?",
+        "answer": "With FUE and Sapphire techniques, scarring is minimal. Micro marks in the donor area are usually not visible once hair grows."
+      }
+    ]
   }
 }

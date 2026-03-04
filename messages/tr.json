@@ -8,7 +8,7 @@
     "getAnalysis": "ÜCRETSİZ ANALİZ"
   },
   "hero": {
-    "badge": "⭐ Türkiye'nin Önde Gelen Saç Ekimi Merkezi",
+    "badge": "⭐ Rusya'nin Önde Gelen Saç Ekimi Merkezi",
     "title": "Doğal Saç Restorasyonunda",
     "subtitle": "Uzman Ekibimiz",
     "description": "Gelişmiş teknikler ve kişiselleştirilmiş bakımla, minimum rahatsızlıkla mükemmel görünüme ulaşmanızı sağlıyoruz.",
@@ -178,5 +178,72 @@
     "ourServices": "Hizmetlerimiz",
     "contactInfo": "İletişim Bilgileri",
     "rights": "Tüm hakları saklıdır."
+  },
+  "faq": {
+    "badge": "Sıkça Sorulan Sorular",
+    "title": "Saç Ekimi Hakkında Merak Ettikleriniz",
+    "description": "Saç ekimi süreciyle ilgili en çok sorulan soruları sizin için yanıtladık.",
+    "items": [
+      {
+        "question": "Sapphire (Safir) yöntemi nedir?",
+        "answer": "Sapphire FUE yöntemi, klasik FUE tekniğinin geliştirilmiş halidir. Kanallar safir uçlu özel bıçaklarla açılır. Bu sayede daha sık ekim yapılabilir, doku travması azalır ve iyileşme süreci daha hızlı olur. Daha doğal ve yoğun sonuçlar elde edilir."
+      },
+      {
+        "question": "Greft nedir?",
+        "answer": "Greft, saç köklerini içeren doku birimidir. Bir greft içerisinde 1 ila 4 saç teli bulunabilir. Saç ekim planlaması, ihtiyaç duyulan greft sayısına göre yapılır."
+      },
+      {
+        "question": "Saç ekimi ne kadar sürer?",
+        "answer": "İşlem genellikle 6 ila 8 saat arasında sürer. Ekilecek greft sayısına göre süre değişebilir."
+      },
+      {
+        "question": "Saç ekimi ağrılı bir işlem midir?",
+        "answer": "İşlem lokal anestezi altında yapılır ve hasta operasyon sırasında ağrı hissetmez. Sonrasında hafif hassasiyet olabilir ancak bu durum kısa sürede geçer."
+      },
+      {
+        "question": "Kaç greft ekileceği nasıl belirlenir?",
+        "answer": "Greft sayısı, saçsız alanın genişliği ve donör bölgenin yoğunluğuna göre doktor tarafından planlanır."
+      },
+      {
+        "question": "Saç ekimi sonrası şok dökülme nedir?",
+        "answer": "Şok dökülme, ekilen saçların ilk 2-6 hafta içerisinde geçici olarak dökülmesidir. Bu normal bir süreçtir ve kalıcı saçlar yaklaşık 3. aydan itibaren çıkmaya başlar."
+      },
+      {
+        "question": "Sonuçlar ne zaman görülür?",
+        "answer": "İlk çıkışlar 3. ayda başlar. 6. ayda belirgin yoğunluk oluşur. Nihai sonuç genellikle 12 ay içerisinde tamamlanır."
+      },
+      {
+        "question": "Saç ekimi kalıcı mıdır?",
+        "answer": "Evet. Donör bölgeden alınan saç kökleri genetik olarak dökülmeye dirençlidir ve ekildikleri bölgede kalıcı olarak yaşamaya devam eder."
+      },
+      {
+        "question": "Kadınlara saç ekimi yapılabilir mi?",
+        "answer": "Evet, uygun aday olan kadınlara da saç ekimi yapılabilir. Ön değerlendirme sonrası planlama yapılır."
+      },
+      {
+        "question": "Saç ekiminden sonra ne zaman işe dönülebilir?",
+        "answer": "Genellikle 2-3 gün içinde sosyal hayata dönülebilir. Masa başı çalışanlar daha hızlı normal yaşantısına dönebilir."
+      },
+      {
+        "question": "Saç ekimi için yaş sınırı var mı?",
+        "answer": "Genellikle 18 yaş üstü ve saç dökülme süreci büyük ölçüde tamamlanmış bireyler için uygundur."
+      },
+      {
+        "question": "Yazın saç ekimi yapılır mı?",
+        "answer": "Evet yapılabilir. Ancak güneşten korunmaya dikkat edilmelidir. Şapka kullanımı ve direkt güneş temasından kaçınmak önemlidir."
+      },
+      {
+        "question": "Saç ekimi sonrası spor yapılabilir mi?",
+        "answer": "İlk 2 hafta ağır spordan kaçınılmalıdır. Hafif yürüyüşler birkaç gün sonra yapılabilir."
+      },
+      {
+        "question": "Ekilen saçlar kesilebilir mi?",
+        "answer": "Evet. Ekilen saçlar doğal saç gibi uzar ve istenilen şekilde kesilebilir, şekillendirilebilir."
+      },
+      {
+        "question": "Saç ekimi sonrası iz kalır mı?",
+        "answer": "FUE ve Sapphire yöntemlerinde iz minimaldir. Donör bölgede gözle fark edilmesi zor mikro izler oluşabilir ancak saç uzadığında görünmez."
+      }
+    ]
   }
 }

@@ -55,7 +55,7 @@ export default function Hero() {
               </a>
             </div>
 
-            {/* Stats */}
+       
             <div className="mt-12 grid grid-cols-3 gap-6 max-w-md mx-auto lg:mx-0">
               <Stat value="15+" label={t("stats.years")} />
               <Stat value="50K+" label={t("stats.patients")} />

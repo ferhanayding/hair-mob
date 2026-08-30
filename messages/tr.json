@@ -19,13 +19,30 @@
       "patients": "Mutlu Hasta",
       "success": "Başarı Oranı"
     },
+    "info": {
+      "years": "Deneyim",
+      "patients": "Mutlu Hasta",
+      "grafts": "Greft Rekoru",
+      "graftsSub": "Tek Seansta",
+      "guarantee": "Garanti",
+      "guaranteeSub": "Sonuca Kadar Destek"
+    },
     "cards": {
       "certified": "FDA Onaylı",
       "certificate": "Uluslararası Sertifika",
       "natural": "%100 Doğal",
       "results": "Sonuçlar"
     },
-    "imageText": "Profesyonel Saç Ekimi"
+    "imageText": "Profesyonel Saç Ekimi",
+    "review": "5 yıldızlı hasta memnuniyeti",
+    "before": "Önce",
+    "after": "Sonra",
+    "realPatientResults": "Gerçek hasta sonuçları",
+    "previousResult": "Önceki sonuç",
+    "nextResult": "Sonraki sonuç",
+    "resultNumber": "Sonuç {number}",
+    "infoKit": "Ücretsiz Bilgi",
+    "chatNow": "WhatsApp"
   },
   "about": {
     "badge": "Hakkımızda",
@@ -92,20 +109,18 @@
     "description": "Hastalarımızın dönüşüm hikayelerini ve profesyonel ekimimiz sürecini videolarımızda izleyebilirsiniz."
   },
   "beforeAfter": {
-    "subtitle": "Önce & Sonra",
+    "subtitle": "Öncesi & Sonrası",
     "title": "Gerçek Sonuçlarımız",
-    "before": "Önce",
-    "after": "Sonra",
-    "beforePhoto": "Önce Fotoğrafı",
-    "afterPhoto": "Sonra Fotoğrafı",
+    "description": "Hastalarımızdan elde edilen gerçek saç ekimi sonuçlarını keşfedin. Her vaka, titiz planlama ve kişiye özel yaklaşımın bir yansımasıdır.",
+    "before": "Öncesi",
+    "after": "Sonrası",
+    "beforePhoto": "Öncesi Fotoğrafı",
+    "afterPhoto": "Sonrası Fotoğrafı",
+    "results": "Gerçek Hasta Sonuçları",
     "stats": {
       "age": "Yaş",
       "grafts": "Greft",
       "method": "Yöntem"
-    },
-    "cta": {
-      "text": "Daha fazla sonuç görmek ister misiniz?",
-      "button": "Ücretsiz Danışmanlık Alın"
     }
   },
   "testimonials": {

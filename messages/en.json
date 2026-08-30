@@ -8,10 +8,10 @@
     "getAnalysis": "FREE ANALYSIS"
   },
   "hero": {
-    "badge": "⭐ Russia's Leading Hair Transplant Center",
+    "badge": "⭐ Leading Hair Transplant Center in Russia",
     "title": "Natural Hair Restoration with",
     "subtitle": "Our Expert Team",
-    "description": "With advanced techniques and personalized care, we help you achieve the perfect look with minimal discomfort.",
+    "description": "With advanced techniques and personalized care, we help you achieve an excellent look with minimal discomfort.",
     "cta": "Get Started",
     "consultation": "Free Consultation",
     "stats": {
@@ -19,13 +19,30 @@
       "patients": "Happy Patients",
       "success": "Success Rate"
     },
+    "info": {
+      "years": "Years of Experience",
+      "patients": "Happy Patients",
+      "grafts": "Graft Record",
+      "graftsSub": "In a Single Session",
+      "guarantee": "Guarantee",
+      "guaranteeSub": "Support Until Results"
+    },
     "cards": {
       "certified": "FDA Approved",
       "certificate": "International Certification",
       "natural": "100% Natural",
       "results": "Results"
     },
-    "imageText": "Professional Hair Transplant"
+    "imageText": "Professional Hair Transplant",
+    "review": "5-star patient satisfaction",
+    "before": "Before",
+    "after": "After",
+    "realPatientResults": "Real patient results",
+    "previousResult": "Previous result",
+    "nextResult": "Next result",
+    "resultNumber": "Result {number}",
+    "infoKit": "Free Information",
+    "chatNow": "WhatsApp"
   },
   "about": {
     "badge": "About Us",
@@ -94,18 +111,16 @@
   "beforeAfter": {
     "subtitle": "Before & After",
     "title": "Our Real Results",
+    "description": "Discover real hair restoration results from our patients. Each case reflects careful planning and a personalized approach.",
     "before": "Before",
     "after": "After",
     "beforePhoto": "Before Photo",
     "afterPhoto": "After Photo",
+    "results": "Real Patient Results",
     "stats": {
       "age": "Age",
       "grafts": "Grafts",
       "method": "Method"
-    },
-    "cta": {
-      "text": "Would you like to see more results?",
-      "button": "Get a Free Consultation"
     }
   },
   "testimonials": {

@@ -1,136 +1,507 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
-import { ArrowRight, MessageCircle } from "lucide-react";
+import {
+  ArrowRight,
+  ChevronLeft,
+  ChevronRight,
+  MessageCircle,
+  ShieldCheck,
+  Users,
+  Target,
+} from "lucide-react";
+import Image from "next/image";
+
+const cases = [
+  {
+    before: "/before-after/1before.jpg",
+    after: "/before-after/1after.jpg",
+  },
+  {
+    before: "/before-after/2before.jpg",
+    after: "/before-after/2after.jpg",
+  },
+  {
+    before: "/before-after/3before.jpg",
+    after: "/before-after/3after.jpg",
+  },
+  {
+    before: "/before-after/4before.jpg",
+    after: "/before-after/4after.jpg",
+  },
+];
 
 export default function Hero() {
   const t = useTranslations("hero");
 
+  const [activeCase, setActiveCase] = useState(0);
+
+  const currentCase = cases[activeCase];
+
+  const nextCase = () => {
+    setActiveCase((prev) => (prev + 1) % cases.length);
+  };
+
+  const previousCase = () => {
+    setActiveCase((prev) => (prev - 1 + cases.length) % cases.length);
+  };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveCase((prev) => (prev + 1) % cases.length);
+    }, 6000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section
       id="home"
-      className="relative min-h-screen  section-padding flex items-center overflow-hidden pt-20"
+      className="
+        relative
+        min-h-screen
+        overflow-hidden
+      bg-[#8f917a]
+        
+        text-white
+      "
     >
-      {/* Background */}
-      <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-linear-to-br from-emerald-50 via-white to-green-50" />
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMxMGI5ODEiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDE4YzAtOS45NC04LjA2LTE4LTE4LTE4UzAgOC4wNiAwIDE4czguMDYgMTggMTggMTggMTgtOC4wNiAxOC0xOHoiLz48L2c+PC9nPjwvc3ZnPg==')] opacity-40" />
+
+      {/* Background shapes */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div
+          className="
+            absolute
+            w-[700px]
+            h-[700px]
+            rounded-full
+            bg-white/10
+            -right-[250px]
+            top-[80px]
+          "
+        />
+
+        <div
+          className="
+            absolute
+            w-[500px]
+            h-[500px]
+            rounded-full
+            bg-white/5
+            left-[35%]
+            bottom-[-250px]
+          "
+        />
+
+        <div
+          className="
+            absolute
+            w-[450px]
+            h-[450px]
+            rounded-full
+            border
+            border-white/10
+            right-[12%]
+            top-[15%]
+          "
+        />
       </div>
 
-      <div className="container-custom relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left */}
-          <div className="text-center lg:text-left animate-fade-in">
-            <div className="inline-block mb-4 px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-semibold">
+      <div
+        className="
+          container-custom
+          relative
+          z-10
+          min-h-screen
+          flex
+          items-center
+          pt-32
+          pb-16
+        "
+      >
+        <div
+          className="
+            w-full
+            grid
+            grid-cols-1
+            lg:grid-cols-[0.9fr_1.1fr]
+            gap-10
+            lg:gap-4
+            items-center
+          "
+        >
+
+          {/* =====================================================
+              LEFT SIDE
+          ====================================================== */}
+          <div className="relative z-20 max-w-2xl">
+
+            {/* Badge */}
+            <div
+              className="
+                inline-flex
+                items-center
+                gap-2
+                mb-6
+                px-5
+                py-2.5
+                rounded-full
+                bg-white/10
+                backdrop-blur-sm
+                text-sm
+                font-medium
+              "
+            >
               {t("badge")}
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              <span className="text-gray-900">{t("title")}</span>
+            {/* Title */}
+            <h1
+              className="
+                text-4xl
+                sm:text-5xl
+                lg:text-[64px]
+                xl:text-[72px]
+                leading-[1.02]
+                tracking-[-0.03em]
+                font-medium
+              "
+            >
+              {t("title")}
+
               <br />
-              <span className="text-gradient">{t("subtitle")}</span>
+
+              <span className="text-white/70">
+                {t("subtitle")}
+              </span>
             </h1>
 
-            <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0">
+            {/* Description */}
+            <p
+              className="
+                mt-7
+                max-w-xl
+                text-base
+                sm:text-lg
+                lg:text-xl
+                leading-relaxed
+                text-white/80
+              "
+            >
               {t("description")}
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            {/* Buttons */}
+            <div className="flex flex-col sm:flex-row gap-3 mt-9">
+
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center px-8 py-4 gradient-primary text-white rounded-lg font-semibold hover:shadow-xl transform hover:scale-105 transition-all group"
+                className="
+                  inline-flex
+                  items-center
+                  justify-center
+                  gap-2
+                  px-7
+                  py-4
+                  rounded-full
+                  bg-[#F7F3F1]
+                  text-[#5B4A46]
+                  font-semibold
+                  shadow-lg
+                  transition-all
+                  duration-300
+                  hover:scale-[1.03]
+                  hover:bg-white
+                "
               >
                 {t("cta")}
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+
+                <ArrowRight className="w-5 h-5" />
               </a>
 
               <a
                 href="https://wa.me/905551234567"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-4 bg-white text-emerald-600 border-2 border-emerald-600 rounded-lg font-semibold hover:bg-emerald-50 transform hover:scale-105 transition-all group"
+                className="
+                  inline-flex
+                  items-center
+                  justify-center
+                  gap-2
+                  px-7
+                  py-4
+                  rounded-full
+                  bg-white/10
+                  backdrop-blur-sm
+                  text-white
+                  font-semibold
+                  transition-all
+                  duration-300
+                  hover:bg-white/20
+                  hover:scale-[1.03]
+                "
               >
-                <MessageCircle className="mr-2 w-5 h-5" />
+                <MessageCircle className="w-5 h-5" />
+
                 {t("consultation")}
               </a>
+
             </div>
 
-       
-            <div className="mt-12 grid grid-cols-3 gap-6 max-w-md mx-auto lg:mx-0">
-              <Stat value="15+" label={t("stats.years")} />
-              <Stat value="50K+" label={t("stats.patients")} />
-              <Stat value="98%" label={t("stats.success")} />
-            </div>
           </div>
 
-          {/* Right */}
-          <div className="relative animate-slide-up hidden lg:block">
-            <div className="relative w-full h-150">
-              <div className="absolute inset-0 rounded-3xl overflow-hidden shadow-2xl bg-linear-to-br from-emerald-400 to-green-600 flex items-center justify-center">
-                <div className="text-white text-center p-8">
-                  <div className="text-6xl mb-4">💆‍♂️</div>
-                  <p className="text-xl font-semibold">{t("imageText")}</p>
+          {/* =====================================================
+              RIGHT SIDE
+          ====================================================== */}
+          <div
+            className="
+              relative
+              min-h-[560px]
+              lg:min-h-[680px]
+              flex
+              items-center
+              justify-center
+            "
+          >
+
+            {/* Large background circle */}
+            <div
+              className="
+                absolute
+                w-[500px]
+                h-[500px]
+                lg:w-[650px]
+                lg:h-[650px]
+                rounded-full
+                bg-white/10
+                right-[-80px]
+                top-1/2
+                -translate-y-1/2
+              "
+            />
+
+
+
+
+            {/* =================================================
+                HERO PERSON
+            ================================================== */}
+            <div
+              className="
+                absolute
+                z-10
+                left-[8%]
+                top-[-10%]
+                w-[360px]
+                h-[600px]
+                lg:w-[750px]
+                lg:h-[650px]
+              "
+            >
+              <Image
+                src="/hero/hero.png"
+                alt={t("imageText")}
+                fill
+                priority
+                className="
+                  object-contain
+                  object-bottom
+                  drop-shadow-[0_30px_50px_rgba(60,35,30,0.25)]
+                "
+              />
+            </div>
+            {/* HERO INFO BAR */}
+            <div
+              className="
+    absolute
+    z-30
+    bottom-0
+    left-1/2
+    -translate-x-1/2
+    w-[calc(100%-2rem)]
+    max-w-[700px]
+  "
+            >
+              <div
+                className="
+      bg-[#F7F3F1]
+      rounded-[20px]
+      shadow-[0_15px_50px_rgba(50,35,30,0.18)]
+      px-5
+      py-5
+      md:px-8
+      md:py-6
+    "
+              >
+                <div
+                  className="
+        grid
+        grid-cols-2
+        lg:grid-cols-4
+        items-center
+      "
+                >
+                  <HeroInfo
+                    icon={<ShieldCheck />}
+                    value="9+"
+                    label={t("info.years")}
+                    border
+                  />
+
+                  <HeroInfo
+                    icon={<Users />}
+                    value="6000+"
+                    label={t("info.patients")}
+                    border
+                  />
+
+                  <HeroInfo
+                    icon={<Target />}
+                    value="8500"
+                    label={t("info.grafts")}
+                    subLabel={t("info.graftsSub")}
+                    border
+                  />
+
+                  <HeroInfo
+                    icon={<ShieldCheck />}
+                    value={t("info.guarantee")}
+                    label={t("info.guaranteeSub")}
+                  />
                 </div>
               </div>
-
-              <FloatingCard
-                className="-top-8 -left-8"
-                icon="✓"
-                title={t("cards.certified")}
-                subtitle={t("cards.certificate")}
-              />
-
-              <FloatingCard
-                className="-bottom-8 -right-8"
-                icon="⭐"
-                title={t("cards.natural")}
-                subtitle={t("cards.results")}
-                delay="1s"
-              />
             </div>
+
+
+            {/* =================================================
+                BEFORE / AFTER
+            ================================================== */}
+
+
+
+
+
+
           </div>
+
         </div>
       </div>
-    </section>
+
+      {/* Bottom fade */}
+      <div
+        className="
+          absolute
+          bottom-0
+          left-0
+          right-0
+          h-20
+          bg-gradient-to-t
+          from-[#CFA7A2]/40
+          to-transparent
+          pointer-events-none
+        "
+      />
+
+    </section >
   );
 }
 
-function Stat({ value, label }: { value: string; label: string }) {
-  return (
-    <div>
-      <div className="text-2xl md:text-3xl font-bold text-main">{value}</div>
-      <div className="text-sm text-gray-600">{label}</div>
-    </div>
-  );
-}
 
-function FloatingCard({
+/* ============================================================
+   STAT
+============================================================ */
+
+
+function HeroInfo({
   icon,
-  title,
-  subtitle,
-  className,
-  delay,
+  value,
+  label,
+  subLabel,
+  border = false,
 }: {
-  icon: string;
-  title: string;
-  subtitle: string;
-  className: string;
-  delay?: string;
+  icon: React.ReactNode;
+  value: string;
+  label: string;
+  subLabel?: string;
+  border?: boolean;
 }) {
   return (
     <div
-      className={`absolute ${className} bg-white rounded-2xl shadow-xl p-4 animate-float`}
-      style={{ animationDelay: delay }}
+      className={`
+        flex
+        items-center
+        justify-center
+        gap-3
+        px-4
+        py-3
+        min-h-[72px]
+
+        ${border ? "lg:border-r border-[#D8CEC7]" : ""}
+      `}
     >
-      <div className="flex items-center space-x-3">
-        <div className="w-12 h-12 gradient-primary rounded-full flex items-center justify-center text-white text-xl">
-          {icon}
-        </div>
-        <div>
-          <div className="font-semibold text-gray-900">{title}</div>
-          <div className="text-sm text-gray-600">{subtitle}</div>
-        </div>
+
+      {/* ICON */}
+      <div
+        className="
+          shrink-0
+          w-10
+          h-10
+          md:w-12
+          md:h-12
+          flex
+          items-center
+          justify-center
+          text-[#C49A55]
+        "
+      >
+        {icon}
       </div>
+
+
+      {/* TEXT */}
+      <div className="text-left">
+
+        <div
+          className="
+            text-[#171717]
+            text-lg
+            md:text-xl
+            font-semibold
+            leading-tight
+          "
+        >
+          {value}
+        </div>
+
+        <div
+          className="
+            text-[#393331]
+            text-xs
+            md:text-sm
+            font-medium
+            mt-1
+            leading-tight
+          "
+        >
+          {label}
+        </div>
+
+        {subLabel && (
+          <div
+            className="
+              text-[#77706C]
+              text-[11px]
+              md:text-xs
+              mt-0.5
+            "
+          >
+            {subLabel}
+          </div>
+        )}
+
+      </div>
+
     </div>
   );
 }

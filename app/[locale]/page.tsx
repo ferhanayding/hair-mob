@@ -14,7 +14,7 @@ export default function Home() {
       <BeforeAfterGallery />
       <About />
       <Services />
-      <Stats />
+      {/* <Stats /> */}
       {/* <VideoSection /> */}
       {/* <BeforeAfter /> */}
       {/* <Testimonials /> */}

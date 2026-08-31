@@ -59,9 +59,9 @@ export default function Contact() {
     >
       <div className="container-custom">
 
-        
-        <SectionHeader title={t('title')} subtitle={t('subtitle')} /> 
-      
+
+        <SectionHeader title={t('title')} subtitle={t('subtitle')} />
+
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
 
           {/* CONTACT INFO */}

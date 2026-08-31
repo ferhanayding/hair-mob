@@ -303,6 +303,8 @@ export default function Hero() {
                 src="/hero/hero.png"
                 alt={t("imageText")}
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+
                 priority
                 className="
                   object-contain

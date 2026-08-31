@@ -74,7 +74,7 @@ export default function Header() {
               <Image
                 src={
                   isScrolled
-                    ? "/logo/logoblack.png"
+                    ? "/logo/logoblack.PNG"
                     : "/logo/logowhite.png"
                 }
                 alt="MOB Hair Clinic"
